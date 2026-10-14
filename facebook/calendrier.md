@@ -1,24 +1,38 @@
 # Calendrier éditorial Facebook SMTEC
 
-Une publication par jour de semaine (lundi → vendredi). Chaque jour : `facebook/AAAA-MM-JJ/publication.md` + `visuel-smtec.png` (1080×1080, généré à partir de `modele-visuel.html`).
+Une publication par jour de semaine, préparée à l'avance : `facebook/AAAA-MM-JJ/` contient `publication.md` (texte à copier-coller), `visuel-smtec.png` et `video-smtec.mp4`.
 
-## Thèmes en rotation (prendre le suivant après le dernier utilisé)
-1. Présentation SMTEC (fait le 2026-10-14)
-2. BMair Protector / Protector Plus X : cabine pressurisée, santé des conducteurs (INRS ED 6228)
-3. Conseil entretien : vidange et filtres, pourquoi respecter les intervalles
-4. Intervention sur site : on vient sur vos chantiers, moins d'immobilisation
-5. Engins SANY : entretien et pièces
-6. Engins SHANTUI : entretien et pièces
-7. Rapport technique après chaque visite : traçabilité (heures, pneus, batterie SoH, extincteur, CT)
-8. Tour de parc / inspection de flotte pour entreprises et collectivités
-9. Filtre HEPA H13 BMair : remplacement toutes les 500 h, n° de série tracé
-10. Pièces détachées et consommables : approvisionnement
-11. Poids lourds, fourgons et véhicules légers
-12. Conseil saison / météo (chaleur, poussière, saison cyclonique) : préparer ses engins
-13. Sécurité au chantier : contrôles de base avant démarrage (feux, extincteur, pneus)
-14. Mine et carrière : engins exposés aux poussières
+Pour modifier un contenu : éditer `contenus.py`, puis `python3 generer.py && node rendre.js`.
 
-## Historique
-| Date | Thème |
-|---|---|
-| 2026-10-14 | 1. Présentation SMTEC |
+| Date | Thème | Vidéo |
+|---|---|---|
+| 14/10/2026 | Présentation SMTEC (image seule) | – |
+| ven. 16/10/2026 | Présentation SMTEC | cartes |
+| lun. 19/10/2026 | Intervention sur site | route |
+| mar. 20/10/2026 | BMair : air pur en cabine | bmair |
+| mer. 21/10/2026 | Entretien préventif | checklist |
+| jeu. 22/10/2026 | Filtre HEPA H13 : toutes les 500 h | chiffre |
+| ven. 23/10/2026 | 3 réflexes pour faire durer vos engins | etapes |
+| lun. 26/10/2026 | Engins SANY | cartes |
+| mar. 27/10/2026 | Rapport technique après chaque visite | checklist |
+| mer. 28/10/2026 | Poids lourds et camions | route |
+| jeu. 29/10/2026 | Tour de parc | etapes |
+| ven. 30/10/2026 | Engins SHANTUI | route |
+| lun. 02/11/2026 | Mine et carrière : poussière | bmair |
+| mar. 03/11/2026 | Pièces détachées et consommables | cartes |
+| mer. 04/11/2026 | Batterie : état de santé | chiffre |
+| jeu. 05/11/2026 | Pneus | checklist |
+| ven. 06/11/2026 | Saison cyclonique : préparer ses engins | etapes |
+| lun. 09/11/2026 | Sécurité avant démarrage | checklist |
+| mar. 10/11/2026 | Collectivités et mairies | cartes |
+| mer. 11/11/2026 | Véhicules légers et utilitaires | route |
+| jeu. 12/11/2026 | INRS ED 6228 | chiffre |
+| ven. 13/11/2026 | En cas de panne | etapes |
+| lun. 16/11/2026 | Vidange complète | checklist |
+| mar. 17/11/2026 | BMair Connect | cartes |
+| mer. 18/11/2026 | Traçabilité des filtres BMair | checklist |
+| jeu. 19/11/2026 | Anticiper plutôt que subir | chiffre |
+| ven. 20/11/2026 | Nos engagements | cartes |
+| lun. 23/11/2026 | Chargeuses | route |
+| mar. 24/11/2026 | Demander un devis | etapes |
+| mer. 25/11/2026 | Récapitulatif : SMTEC à votre service | cartes |
