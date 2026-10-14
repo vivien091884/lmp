@@ -1,22 +1,40 @@
+@font-face{font-family:M;src:url(fonts/Montserrat-400.ttf);font-weight:400}
+@font-face{font-family:M;src:url(fonts/Montserrat-500.ttf);font-weight:500}
+@font-face{font-family:M;src:url(fonts/Montserrat-600.ttf);font-weight:600}
+@font-face{font-family:M;src:url(fonts/Montserrat-700.ttf);font-weight:700}
+@font-face{font-family:M;src:url(fonts/Montserrat-800.ttf);font-weight:800}
+@font-face{font-family:M;src:url(fonts/Montserrat-900.ttf);font-weight:900}
+:root{--or:#e0561c;--or2:#a8401a;--beige:#dcd0be;--char:#1d1c1b;--char2:#272624;--line:#3a3836;--taupe:#9a9087;--lat1:#b9562f;--lat2:#6e2c19}
 *{margin:0;box-sizing:border-box}
 html,body{width:1080px;height:1080px;overflow:hidden}
-body{font-family:Inter,sans-serif;background:radial-gradient(circle at 75% 30%,#1d3550 0,#0f1b2b 62%);color:#fff;position:relative}
-.y{color:#f5b400}
-.brand{position:absolute;top:56px;left:70px;font-family:'Inter Display',Inter;font-weight:900;font-size:44px;letter-spacing:-1px;animation:fadeIn .5s .1s both}
-.brand span{color:#f5b400}
-.stripe{position:absolute;left:-80px;right:0;bottom:0;height:22px;background:repeating-linear-gradient(-45deg,#f5b400 0 40px,#111 40px 80px);animation:stripe 1s linear infinite;z-index:50}
-h1{font-family:'Inter Display',Inter;font-weight:800;line-height:1.05}
-.w{display:inline-block;animation:wordUp .6s cubic-bezier(.2,.9,.3,1.2) both}
-.outro{position:absolute;inset:0;background:#f5b400;color:#0f1b2b;transform:translateY(100%);animation:up .7s cubic-bezier(.75,0,.25,1) 6.2s both;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:40}
-.outro .logo{font-family:'Inter Display',Inter;font-weight:900;font-size:170px;letter-spacing:-5px;line-height:1;animation:pop .6s cubic-bezier(.2,.9,.3,1.4) 6.7s both}
-.outro .logo span{color:#fff}
-.outro .tag{font-size:34px;font-weight:700;margin-top:18px;animation:fadeUp .5s 7.0s both}
-.outro .cta{margin-top:48px;background:#0f1b2b;color:#fff;font-size:34px;font-weight:800;padding:22px 40px;border-radius:16px;animation:pop .5s cubic-bezier(.2,.9,.3,1.4) 7.3s both}
+body{font-family:M,sans-serif;background:var(--char);color:var(--beige);position:relative}
+.y{color:var(--or)}
+.topo{position:absolute;inset:-60px;opacity:.55;animation:drift 9.5s linear both}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(-40px,20px)}}
+.lat{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,var(--lat1) 0,#94401f 55%,var(--lat2) 100%)}
+.grain{position:absolute;inset:0;mix-blend-mode:multiply;opacity:.55}
+.brand{position:absolute;top:58px;left:70px;width:200px;animation:fadeIn .5s .1s both}
+.brand svg{width:100%;display:block}
+.stripe{position:absolute;left:0;right:0;bottom:0;height:10px;background:var(--or);z-index:50;transform-origin:left;animation:grow 9.5s linear both}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+h1{font-weight:800;line-height:1.08;text-transform:uppercase;letter-spacing:.5px;color:#f1e9dd}
+.w{display:inline-block;animation:wordUp .6s cubic-bezier(.2,.9,.3,1.1) both}
+.kicker{font-size:24px;font-weight:600;letter-spacing:6px;text-transform:uppercase;color:var(--or)}
+.outro{position:absolute;inset:0;clip-path:inset(100% 0 0 0);animation:reveal .8s cubic-bezier(.75,0,.25,1) 6.2s both;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:40}
+@keyframes reveal{to{clip-path:inset(0 0 0 0)}}
+.outro .logo{position:relative;width:820px}
+.outro .tag{position:relative;margin-top:34px;font-size:26px;font-weight:500;letter-spacing:9px;color:#f1e9dd;animation:fadeUp .5s 7.6s both}
+.outro .tag b{color:var(--char);font-weight:900}
+.outro .slog{position:relative;margin-top:44px;font-size:40px;font-weight:800;text-transform:uppercase;color:#f1e9dd;animation:fadeUp .5s 7.9s both}
+.outro .cta{position:relative;margin-top:36px;background:var(--char);color:var(--beige);font-size:30px;font-weight:700;padding:20px 38px;border-radius:6px;animation:pop .5s cubic-bezier(.2,.9,.3,1.4) 8.2s both}
+.L{animation:fadeIn .01s both}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
-@keyframes wordUp{from{opacity:0;transform:translateY(60px) rotate(4deg)}to{opacity:1;transform:none}}
+@keyframes wordUp{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
 @keyframes pop{0%{opacity:0;transform:scale(.4)}100%{opacity:1;transform:scale(1)}}
-@keyframes up{to{transform:translateY(0)}}
-@keyframes stripe{to{transform:translateX(80px)}}
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes spinR{to{transform:rotate(-360deg)}}
+@keyframes inL{from{opacity:0;transform:translateX(-140px)}to{opacity:1;transform:none}}
+@keyframes inR{from{opacity:0;transform:translateX(160px)}to{opacity:1;transform:none}}
+@keyframes inU{from{opacity:0;transform:translateY(-120px)}to{opacity:1;transform:none}}
+@keyframes inD{from{opacity:0;transform:translateY(120px)}to{opacity:1;transform:none}}
