@@ -449,3 +449,127 @@ N'hésitez pas à partager cette page à ceux qui pourraient en avoir besoin !
 📩 Et pour toute demande : écrivez-nous en message privé.""",
  tags="#Mécanique #EnginsDeChantier #PoidsLourds #BMair #Maintenance"),
 ]
+
+# Publications du week-end (samedi et dimanche) pour avoir une publication par jour du 21/10 au 18/11/2026, dans l'ordre de diffusion.
+W = [
+dict(theme="Liquide de refroidissement et chaleur",
+ visuel=("Chaleur :|gardez votre moteur|*au frais.*", ["Niveau de liquide à froid", "Radiateur propre et dégagé", "Durites sans fissure", "Ventilateur & courroie"], "engrenages", "Surchauffe = casse moteur"),
+ video=("checklist", "Moteur|*au_frais.*", ["Niveau", "Radiateur", "Durites", "Courroie"], "Pas de surchauffe, *pas_de_casse.*"),
+ texte="""🌡️ Avec la chaleur calédonienne, le circuit de refroidissement de vos engins travaille dur.
+
+Une surchauffe peut abîmer sérieusement un moteur. Quelques contrôles simples :
+✔️ Vérifier le niveau de liquide de refroidissement, moteur froid (jamais bouchon ouvert à chaud !)
+✔️ Garder le radiateur propre : poussière et latérite bouchent les ailettes
+✔️ Contrôler l'état des durites
+✔️ Vérifier le ventilateur et la courroie
+
+Au moindre doute sur la température moteur, on arrête et on vérifie.
+
+📩 Besoin d'un contrôle ? Écrivez-nous en message privé !""",
+ tags="#Refroidissement #Moteur #ConseilMécanique #EnginsDeChantier #Maintenance"),
+
+dict(theme="Bulldozers : le train de roulement",
+ visuel=("Bulldozers :|surveillez le|*train de roulement.*", ["Tension des chenilles", "Galets & barbotins", "Patins et boulons", "Nettoyage régulier"], "bulldozer", "Les chenilles, ça s'entretient"),
+ video=("route", "Vos *bulldozers* au_top.", "Train de roulement contrôlé sur site", "bulldozer", "Chenilles vérifiées, engin prêt"),
+ texte="""🚜 Sur un bulldozer, le train de roulement représente une grosse part des coûts d'entretien.
+
+Les bons réflexes :
+🔹 Vérifier la tension des chenilles : trop tendues ou trop lâches, elles s'usent plus vite
+🔹 Surveiller galets, barbotins et roues folles
+🔹 Contrôler les patins et le serrage des boulons
+🔹 Nettoyer régulièrement : la boue et les cailloux accélèrent l'usure
+
+SMTEC contrôle et entretient vos bulldozers (SHANTUI et autres marques) directement sur vos chantiers.
+
+📩 Écrivez-nous en message privé !""",
+ tags="#Bulldozer #SHANTUI #Chenilles #EnginsDeChantier #Maintenance"),
+
+dict(theme="Voyant rouge : les bons gestes",
+ visuel=("Voyant *rouge ?*|On s'arrête.", ["Arrêter l'engin en sécurité", "Ne pas insister", "Noter le voyant et les heures", "Nous appeler"], "telephone", "Mieux vaut un arrêt qu'une casse"),
+ video=("etapes", "Voyant rouge ? *3_gestes*", [("On s'arrête", "Engin à l'arrêt, en sécurité"), ("On ne redémarre pas", "Pression d'huile, température : on ne force pas"), ("On nous appelle", "Voyant, heures moteur, photo")]),
+ texte="""🚨 Un voyant rouge s'allume sur le tableau de bord ? Ce n'est pas le moment d'insister.
+
+Pression d'huile, température moteur, charge… Un voyant rouge signale un problème sérieux.
+
+1️⃣ Arrêtez l'engin dès que possible, en sécurité
+2️⃣ Ne redémarrez pas « pour voir » : c'est souvent comme ça qu'une petite panne devient une grosse casse
+3️⃣ Notez le voyant, les heures moteur, prenez une photo et contactez-nous
+
+📩 Un voyant allumé ? Écrivez-nous en message privé !""",
+ tags="#Sécurité #Panne #ConseilMécanique #EnginsDeChantier #Conducteurs"),
+
+dict(theme="Moteur : 3 bonnes pratiques",
+ visuel=("Votre moteur|vous dit|*merci.*", ["Laisser monter en température", "Éviter le ralenti prolongé", "Laisser refroidir avant l'arrêt", "Respecter les vidanges"], "engrenages", "De bonnes habitudes, un moteur qui dure"),
+ video=("etapes", "Moteur : *3_habitudes*", [("Chauffer en douceur", "Quelques minutes avant de forcer"), ("Éviter le ralenti prolongé", "Carburant gaspillé, moteur encrassé"), ("Refroidir avant l'arrêt", "Un peu de ralenti après un gros effort")]),
+ texte="""🛠️ 3 habitudes simples qui prolongent la vie d'un moteur diesel :
+
+1️⃣ Laisser le moteur monter en température quelques minutes avant de le solliciter fort.
+2️⃣ Éviter les longs ralentis inutiles : carburant gaspillé et moteur qui s'encrasse.
+3️⃣ Après un travail intensif, laisser tourner un peu au ralenti avant de couper : le turbo vous remerciera.
+
+Bon dimanche à tous !
+
+📩 Une question sur vos moteurs ? Écrivez-nous en message privé.""",
+ tags="#Moteur #Diesel #ConseilMécanique #EnginsDeChantier #Maintenance"),
+
+dict(theme="Filtre à air moteur et poussière",
+ visuel=("Poussière :|le *filtre à air*|en première ligne.", ["Contrôle régulier", "Remplacement à l'échéance", "Joint et boîtier étanches", "Préfiltre nettoyé"], "pieces", "Un moteur qui respire bien dure plus"),
+ video=("cartes", "Le *filtre_à_air*, ça_compte", "Poussière et latérite : protégez le moteur", [("filtre", "Contrôle régulier"), ("horloge", "Remplacement à l'échéance"), ("check", "Boîtier étanche"), ("oeil", "Indicateur surveillé")]),
+ texte="""💨 Sur nos chantiers et nos mines, la poussière est partout… y compris là où elle ne devrait pas aller : dans le moteur.
+
+Le filtre à air est sa première protection :
+🔹 Contrôlez-le régulièrement, surtout en milieu très poussiéreux
+🔹 Remplacez-le à l'échéance, sans attendre qu'il soit colmaté
+🔹 Vérifiez l'étanchéité du boîtier et du joint
+🔹 Surveillez l'indicateur de colmatage s'il y en a un
+
+Un filtre colmaté, c'est un moteur qui perd en puissance et consomme plus.
+
+📩 Besoin de filtres ou d'un entretien ? Écrivez-nous en message privé !""",
+ tags="#FiltreAir #Moteur #Poussière #Mine #EnginsDeChantier"),
+
+dict(theme="Engin à l'arrêt prolongé",
+ visuel=("Engin|*à l'arrêt ?*|Préparez-le.", ["Pleins faits, niveaux OK", "Batterie débranchée ou chargée", "Vérins rentrés, graissés", "Remise en route contrôlée"], "pelle", "Un redémarrage sans mauvaise surprise"),
+ video=("etapes", "Arrêt prolongé ? *3_étapes*", [("Avant l'arrêt", "Niveaux faits, engin propre"), ("Pendant", "Batterie protégée, vérins rentrés"), ("Au redémarrage", "Contrôle complet avant de travailler")]),
+ texte="""⏸️ Un engin qui reste plusieurs semaines sans tourner (fin de chantier, congés, saison calme) ? Quelques précautions évitent les mauvaises surprises :
+
+1️⃣ Avant l'arrêt : niveaux faits, engin nettoyé, plein de carburant pour limiter la condensation
+2️⃣ Pendant : batterie débranchée ou maintenue en charge, vérins rentrés et graissés pour protéger les tiges
+3️⃣ Au redémarrage : contrôle des niveaux, des fuites et de la batterie avant de reprendre le travail
+
+📩 On peut s'occuper de la remise en route de vos engins : écrivez-nous en message privé !""",
+ tags="#ConseilMécanique #EnginsDeChantier #Batterie #Maintenance #Hivernage"),
+
+dict(theme="Utilitaires : avant de prendre la route",
+ visuel=("Avant la route,|*un contrôle.*", ["Pneus & pression", "Freins", "Éclairage", "Niveaux & essuie-glaces"], "fourgon", "Utilitaires et VL prêts à rouler"),
+ video=("route", "Prêt pour *la_route ?*", "Contrôle de vos utilitaires et VL", "camion", "Pneus, freins, feux : vérifiés"),
+ texte="""🚐 Vos fourgons, pick-up et utilitaires roulent beaucoup entre Nouméa et la brousse. Avant un long trajet, quelques points à vérifier :
+
+✅ Pneus : usure et pression (roue de secours comprise)
+✅ Freins : bruit, vibration, efficacité
+✅ Éclairage et clignotants
+✅ Niveaux : huile, liquide de refroidissement, lave-glace
+✅ Essuie-glaces
+
+SMTEC entretient aussi les véhicules légers et utilitaires de votre flotte.
+
+📩 Un contrôle avant la route ? Écrivez-nous en message privé !""",
+ tags="#Utilitaires #VL #Flotte #Sécurité #Entretien"),
+
+dict(theme="Fuites hydrauliques",
+ visuel=("Petite fuite,|*gros risques.*", ["Flexibles usés ou frottés", "Raccords desserrés", "Joints de vérins", "Niveau d'huile hydraulique"], "huile", "Une fuite se traite tout de suite"),
+ video=("checklist", "Fuite|*hydraulique ?*", ["Flexibles", "Raccords", "Vérins", "Niveau"], "On répare *avant_la_casse.*"),
+ texte="""💧 Une petite tache d'huile sous l'engin ? Ne la laissez pas grandir.
+
+Une fuite hydraulique, c'est :
+⚠️ Un risque pour la sécurité (un flexible qui éclate, c'est dangereux)
+⚠️ Une perte de puissance et de précision
+⚠️ De l'huile qui coûte cher… et qui pollue
+
+Les points à surveiller : flexibles usés ou qui frottent, raccords desserrés, joints de vérins, niveau d'huile hydraulique.
+
+⚠️ Ne cherchez jamais une fuite sous pression avec la main.
+
+📩 Une fuite repérée ? Écrivez-nous en message privé !""",
+ tags="#Hydraulique #Sécurité #EnginsDeChantier #Maintenance #Environnement"),
+]
