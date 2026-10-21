@@ -1,3 +1,4 @@
 node_modules
 .img-*
 __pycache__/
+.apercu/

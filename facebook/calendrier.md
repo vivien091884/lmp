@@ -2,7 +2,9 @@
 
 Une publication par jour du 21/10 au 18/11/2026 (week-ends compris), puis en semaine jusqu'au 25/11, préparée à l'avance : `facebook/AAAA-MM-JJ/` contient `publication.md` (texte à copier-coller), `visuel-smtec.png` et `video-smtec.mp4`.
 
-Pour modifier un contenu : éditer `contenus.py`, puis `python3 generer.py && node rendre.js`.
+Du 21/10 au 18/11, **5 vidéos par jour** : `video-smtec.mp4` (vidéo principale de la publication, carrée) + 4 vidéos verticales 1080×1920 pour Stories, Reels et WhatsApp (`reel-1-accroche`, `reel-2-points-cles`, `reel-3-illustration`, `reel-4-question`).
+
+Pour modifier un contenu : éditer `contenus.py`, puis `python3 generer.py && node rendre.js && node rendre_reels.js`.
 
 | Date | Thème | Vidéo |
 |---|---|---|
