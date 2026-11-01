@@ -1,12 +1,12 @@
 """Génère les dossiers AAAA-MM-JJ (publication.md, visuel.html, video.html) pour chaque jour de semaine à partir du 16/10/2026,
-puis les week-ends à partir du 24/10/2026 (une publication par jour du 21/10 au 18/11).
+puis les week-ends à partir du 24/10/2026, puis la suite S sur chaque jour libre à partir du 19/11 (une publication par jour du 21/10 au 17/12).
 Rendu PNG/MP4 ensuite avec rendre.js :  python3 generer.py && node rendre.js"""
 import datetime as dt, json, os
-from contenus import P, W, BASE
+from contenus import P, W, S, BASE
 from gabarits import visuel, VIDEOS
 from reels import REELS, DUREE_REEL
 
-REELS_DU, REELS_AU = dt.date(2026, 10, 21), dt.date(2026, 11, 18)  # 5 vidéos par jour sur ces 29 jours
+REELS_DU, REELS_AU = dt.date(2026, 10, 21), dt.date(2026, 12, 17)  # 5 vidéos par jour sur ces 29 jours
 
 def jours(debut, n):
     d = debut
@@ -24,7 +24,12 @@ def week_ends(debut, n):
 
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 index = []
-pubs = sorted([*zip(jours(dt.date(2026, 10, 16), len(P)), P), *zip(week_ends(dt.date(2026, 10, 24), len(W)), W)], key=lambda x: x[0])
+pubs = [*zip(jours(dt.date(2026, 10, 16), len(P)), P), *zip(week_ends(dt.date(2026, 10, 24), len(W)), W)]
+pris, d = {x for x, _ in pubs}, dt.date(2026, 11, 19)
+for p in S:  # suite : chaque jour encore libre à partir du 19/11
+    while d in pris: d += dt.timedelta(1)
+    pubs.append((d, p)); pris.add(d)
+pubs.sort(key=lambda x: x[0])
 for d, p in pubs:
     rep = d.isoformat(); os.makedirs(rep, exist_ok=True)
     open(f"{rep}/visuel.html", "w").write(visuel(*p["visuel"]))
@@ -43,9 +48,9 @@ for d, p in pubs:
     index.append((d, p["theme"], g))
 json.dump([d.isoformat() for d, *_ in index], open("dates.json", "w"))
 with open("calendrier.md", "w") as f:
-    f.write("# Calendrier éditorial Facebook SMTEC\n\nUne publication par jour du 21/10 au 18/11/2026 (week-ends compris), puis en semaine jusqu'au 25/11, préparée à l'avance : `facebook/AAAA-MM-JJ/` contient "
+    f.write("# Calendrier éditorial Facebook SMTEC\n\nUne publication par jour du 21/10 au 17/12/2026 (week-ends compris), préparée à l'avance : `facebook/AAAA-MM-JJ/` contient "
             "`publication.md` (texte à copier-coller), `visuel-smtec.png` et `video-smtec.mp4`.\n\n"
-            "Du 21/10 au 18/11, **5 vidéos par jour** : `video-smtec.mp4` (vidéo principale de la publication, carrée) + 4 vidéos verticales "
+            "Du 21/10 au 17/12, **5 vidéos par jour** : `video-smtec.mp4` (vidéo principale de la publication, carrée) + 4 vidéos verticales "
             "1080×1920 pour Stories, Reels et WhatsApp (`reel-1-accroche`, `reel-2-points-cles`, `reel-3-illustration`, `reel-4-question`).\n\n"
             "Pour modifier un contenu : éditer `contenus.py`, puis `python3 generer.py && node rendre.js && node rendre_reels.js`.\n\n"
             "| Date | Thème | Vidéo |\n|---|---|---|\n| 14/10/2026 | Présentation SMTEC (image seule) | – |\n")
