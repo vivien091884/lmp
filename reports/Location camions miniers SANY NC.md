@@ -1,5 +1,29 @@
 # Louer des SANY aux mines, mais adossé à un contrat
 
+## Mise à jour du 18/11/2026 : chiffres terrain donnés par SMTEC
+
+SMTEC a donné trois chiffres terrain qui remplacent des hypothèses du modèle ci-dessous :
+
+- **Un articulé de 40 t, toutes marques, se loue 15 000 à 18 000 XPF/h.** Le modèle retenait 10 000 XPF/h pour un SKT90S.
+- **Les machines louées tournent en moyenne environ 60 % du temps.** C'est le scénario « base » du modèle.
+- **Un rouleur en 6x4 routier gagne environ 120 000 XPF par jour.** Il est payé au voyage, avec un tarif différent selon le camion. À Nakéty, une mauvaise journée rapporte au minimum 125 000 à 130 000 XPF.
+
+**Ce que ça change (estimations, mêmes hypothèses de coûts que plus bas : 4 SKT90S et une chargeuse pour 108 M XPF)**
+
+| Tarif SKT90S | Taux de location | Chiffre d'affaires/an | EBITDA/an | Trésorerie après crédit, 30 % d'apport | TRI sur 5 ans | Retour |
+|---|---|---|---|---|---|---|
+| 10 000 XPF/h (ancien modèle) | 60 % | 84 M | 23 M | +5 M | ≈ 9 % | ≈ 4,8 ans |
+| 13 000 XPF/h (SANY avec décote) | 60 % | 103 M | 41 M | +23 M | ≈ 30 % | ≈ 2,6 ans |
+| **15 000 XPF/h (bas du marché articulé)** | **60 %** | **116 M** | **53 M** | **+36 M** | **≈ 43 %** | **≈ 2 ans** |
+| 15 000 XPF/h | 40 % | 77 M | 28 M | +11 M | ≈ 15 % | ≈ 3,9 ans |
+| 18 000 XPF/h | 60 % | 135 M | 71 M | +54 M | ≈ 62 % | ≈ 1,5 an |
+
+- **Seuil de trésorerie (30 % d'apport) :** environ 32 % de taux de location à 15 000 XPF/h, et 38 % à 13 000 XPF/h.
+- **Un seul SKT90S** à 15 000 XPF/h, loué 60 % de 220 h/mois, rapporte environ 24 M XPF par an pour un camion acheté environ 18 M XPF. C'est plus de 100 % de son prix chaque année, alors que les loueurs visent d'habitude 35 à 45 %. Un articulé de 40 t neuf coûte probablement 3 à 4 fois plus cher qu'un SKT90S, ce qui explique l'écart : c'est l'avantage prix SANY. **Il ne tient que si le SKT90S fait le même travail qu'un articulé en descente.** L'essai sur piste mouillée et le prix rendu réel restent donc les deux points décisifs.
+- **Les coûts sont peut-être sous-estimés.** Avec un entretien à 6 000 XPF/h au lieu de 4 300, ou 3 mécaniciens au lieu de 2, la rentabilité reste bonne à 15 000 XPF/h, mais il faut les chiffrer avec l'atelier SMTEC.
+
+**Côté rouleur (estimation).** Un 6x4 routier rapporte environ 12 000 à 13 000 XPF/h en comptant 10 h par jour, conducteur et gasoil compris, pour environ 15 à 20 t par voyage. Un SKT90S loué 15 000 XPF/h, plus le gasoil (≈ 35 L/h) et le conducteur, revient à environ 22 000 à 24 000 XPF/h pour 60 t par voyage. Par tonne descendue, c'est environ deux fois moins cher pour la mine, à temps de cycle égal. C'est un argument fort pour les miniers, mais aussi une menace directe pour le travail des rouleurs. **La formule à proposer est donc de louer le SKT90S au GIE de rouleurs, pas à la mine à leur place.** Elle n'est intéressante pour eux que si la mine paie le voyage d'un gros camion plus cher que celui d'un 6x4. Le tarif au voyage par type de camion à Nakéty est la donnée à obtenir.
+
 ## En bref
 
 **Verdict : oui, SMTEC peut monter un « petit Salmon » SANY, mais seulement sous trois conditions.** Il faut d'abord un essai réussi d'un SKT90S en descente sur une vraie piste latéritique. Il faut ensuite un premier client solide qui signe avant l'achat, avec un minimum d'heures garanti : la SLN à Kouaoua ou Thio, ou un exportateur (SMT, MKM, SMGM). Il faut enfin que SMTEC se présente comme **fournisseur de machines et de maintenance** des mineurs et des GIE locaux de roulage, et jamais comme leur concurrent. Une flotte achetée « pour voir » ne vaut pas le risque. Le même parc adossé à un contrat devient rentable, parce qu'un camion SANY coûte une fraction d'un Caterpillar.
