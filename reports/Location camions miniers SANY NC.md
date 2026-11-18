@@ -44,7 +44,32 @@ SMTEC a donné quatre chiffres terrain qui remplacent des hypothèses du modèle
 
 Un contrat d'ancrage avec minimum d'heures reste donc la condition pour acheter.
 
-**Côté rouleur (estimation).** Un 6x4 routier rapporte environ 12 000 à 13 000 XPF/h, en comptant 10 h par jour, conducteur et gasoil compris, pour environ 15 à 20 t par voyage. Un SKT90S loué 15 000 XPF/h, plus le gasoil (≈ 35 L/h) et le conducteur, revient à environ 22 000 à 24 000 XPF/h pour 60 t par voyage. Par tonne descendue, c'est environ deux fois moins cher pour la mine, à temps de cycle égal. C'est un argument fort auprès des miniers, mais aussi une menace directe pour le travail des rouleurs. **La formule à proposer est donc de louer le SKT90S au GIE de rouleurs, pas à la mine à leur place.** Elle ne les intéresse que si la mine paie le voyage d'un gros camion plus cher que celui d'un 6x4. Le tarif au voyage par type de camion à Nakéty est la donnée à obtenir.
+**Côté rouleur : précisions de SMTEC.** Les tarifs articulés de 15 000 à 18 000 XPF/h sont **sans conducteur**. Le voyage est payé **à peu près au prorata du tonnage**. Aujourd'hui, la descente se fait **en 6x4 routier d'une vingtaine de tonnes**, pas en articulé.
+
+**Calcul pour un GIE ou un rouleur qui louerait un SKT90S (estimation, journée de 10 h)**
+
+| | 6x4 routier (≈ 20 t) | SKT90S loué (60 t), même nombre de voyages | SKT90S, 20 % de voyages en moins |
+|---|---|---|---|
+| Recette/jour (base : mauvaise journée à Nakéty, 125 000 XPF) | 125 000 | ≈ 375 000 | ≈ 300 000 |
+| Location SMTEC (15 000 XPF/h × 10 h) | — | 150 000 | 150 000 |
+| Gasoil (6x4 ≈ 150 L, SKT ≈ 350 L, à environ 150 XPF/L, à vérifier avec les exonérations minières) | ≈ 22 000 | ≈ 52 000 | ≈ 52 000 |
+| Conducteur (coût chargé) | ≈ 25 000 | ≈ 25 000 | ≈ 25 000 |
+| Crédit et entretien de son propre camion | ≈ 30 000 | — | — |
+| **Reste au rouleur/jour** | **≈ 48 000** | **≈ 148 000** | **≈ 73 000** |
+
+**Lecture.**
+
+- **Le SKT90S rapporte plus au rouleur que son 6x4,** même avec 20 % de voyages en moins.
+- **La mine paie le même prix à la tonne.** Elle y gagne moins de camions sur la piste, moins de conducteurs et un meilleur débit vers le bord de mer.
+- **SMTEC encaisse environ 40 à 50 % de la recette du camion.** C'est le partage à négocier.
+- **Positionnement à retenir :** SMTEC ne prend pas le travail des rouleurs, il leur loue un outil qui triple le tonnage par conducteur.
+
+**Points à vérifier.**
+
+- **Temps de cycle réel du SKT90S en descente.** Le chargement de 60 t est plus long, et la vitesse en descente chargée sur piste mouillée est inconnue.
+- **Accès sans route publique.** Le SKT90S n'est pas homologué route : le trajet de la mine au bord de mer doit se faire entièrement sur piste privée.
+- **Règles d'attribution des voyages.** Elles se font souvent par tour de rôle entre rouleurs : un gros camion est-il accepté dans le tour ?
+- **Garantie de paiement.** La recette d'un SKT90S loué est d'environ 3 à 3,5 M XPF/mois. Le rouleur étant fragile financièrement, il faut une **délégation de paiement ou cession de créance** : la mine verse directement à SMTEC la part de location sur les voyages du camion.
 
 ## En bref
 
