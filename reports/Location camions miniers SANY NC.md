@@ -2,27 +2,49 @@
 
 ## Mise à jour du 18/11/2026 : chiffres terrain donnés par SMTEC
 
-SMTEC a donné trois chiffres terrain qui remplacent des hypothèses du modèle ci-dessous :
+SMTEC a donné quatre chiffres terrain qui remplacent des hypothèses du modèle plus bas :
 
+- **Prix d'un SKT90S rendu livré en Nouvelle-Calédonie (via GSR) : 37 à 40 M XPF.** Le modèle retenait 18 M XPF, soit environ deux fois moins.
 - **Un articulé de 40 t, toutes marques, se loue 15 000 à 18 000 XPF/h.** Le modèle retenait 10 000 XPF/h pour un SKT90S.
-- **Les machines louées tournent en moyenne environ 60 % du temps.** C'est le scénario « base » du modèle.
+- **Les machines louées tournent en moyenne environ 60 % du temps.**
 - **Un rouleur en 6x4 routier gagne environ 120 000 XPF par jour.** Il est payé au voyage, avec un tarif différent selon le camion. À Nakéty, une mauvaise journée rapporte au minimum 125 000 à 130 000 XPF.
 
-**Ce que ça change (estimations, mêmes hypothèses de coûts que plus bas : 4 SKT90S et une chargeuse pour 108 M XPF)**
+**Nouveau calcul (estimations).** Flotte de 4 SKT90S et 1 chargeuse, soit environ **184 à 196 M XPF**. Les autres hypothèses ne changent pas : chargeuse 28 M, pièces et atelier 8 M, entretien 4 300 XPF/h, 22 M XPF/an de charges fixes, crédit 5 ans à 5 %, 220 h/mois sous contrat.
 
-| Tarif SKT90S | Taux de location | Chiffre d'affaires/an | EBITDA/an | Trésorerie après crédit, 30 % d'apport | TRI sur 5 ans | Retour |
-|---|---|---|---|---|---|---|
-| 10 000 XPF/h (ancien modèle) | 60 % | 84 M | 23 M | +5 M | ≈ 9 % | ≈ 4,8 ans |
-| 13 000 XPF/h (SANY avec décote) | 60 % | 103 M | 41 M | +23 M | ≈ 30 % | ≈ 2,6 ans |
-| **15 000 XPF/h (bas du marché articulé)** | **60 %** | **116 M** | **53 M** | **+36 M** | **≈ 43 %** | **≈ 2 ans** |
-| 15 000 XPF/h | 40 % | 77 M | 28 M | +11 M | ≈ 15 % | ≈ 3,9 ans |
-| 18 000 XPF/h | 60 % | 135 M | 71 M | +54 M | ≈ 62 % | ≈ 1,5 an |
+| Prix SKT | Tarif | Taux de location | Chiffre d'affaires/an | EBITDA/an | Trésorerie, 30 % d'apport | Trésorerie, 100 % financé | TRI sur 5 ans | Retour |
+|---|---|---|---|---|---|---|---|---|
+| 40 M | 15 000 XPF/h | 40 % | 77 M | 28 M | −4 M | −17 M | ≈ 0 % | ≈ 7 ans |
+| 40 M | 15 000 XPF/h | 50 % | 96 M | 41 M | +9 M | −5 M | ≈ 9 % | ≈ 4,8 ans |
+| **38,5 M** | **15 000 XPF/h** | **60 %** | **116 M** | **53 M** | **≈ +22 M** | **≈ +9 M** | **≈ 18 %** | **≈ 3,6 ans** |
+| 40 M | 18 000 XPF/h | 60 % | 135 M | 71 M | +40 M | +26 M | ≈ 28 % | ≈ 2,7 ans |
+| 37 M | 18 000 XPF/h | 70 % | 157 M | 87 M | +57 M | +44 M | ≈ 41 % | ≈ 2,1 ans |
 
-- **Seuil de trésorerie (30 % d'apport) :** environ 32 % de taux de location à 15 000 XPF/h, et 38 % à 13 000 XPF/h.
-- **Un seul SKT90S** à 15 000 XPF/h, loué 60 % de 220 h/mois, rapporte environ 24 M XPF par an pour un camion acheté environ 18 M XPF. C'est plus de 100 % de son prix chaque année, alors que les loueurs visent d'habitude 35 à 45 %. Un articulé de 40 t neuf coûte probablement 3 à 4 fois plus cher qu'un SKT90S, ce qui explique l'écart : c'est l'avantage prix SANY. **Il ne tient que si le SKT90S fait le même travail qu'un articulé en descente.** L'essai sur piste mouillée et le prix rendu réel restent donc les deux points décisifs.
-- **Les coûts sont peut-être sous-estimés.** Avec un entretien à 6 000 XPF/h au lieu de 4 300, ou 3 mécaniciens au lieu de 2, la rentabilité reste bonne à 15 000 XPF/h, mais il faut les chiffrer avec l'atelier SMTEC.
+- **Seuil de trésorerie** (taux de location minimum pour que la trésorerie reste positive, SKT à 38,5 M) :
 
-**Côté rouleur (estimation).** Un 6x4 routier rapporte environ 12 000 à 13 000 XPF/h en comptant 10 h par jour, conducteur et gasoil compris, pour environ 15 à 20 t par voyage. Un SKT90S loué 15 000 XPF/h, plus le gasoil (≈ 35 L/h) et le conducteur, revient à environ 22 000 à 24 000 XPF/h pour 60 t par voyage. Par tonne descendue, c'est environ deux fois moins cher pour la mine, à temps de cycle égal. C'est un argument fort pour les miniers, mais aussi une menace directe pour le travail des rouleurs. **La formule à proposer est donc de louer le SKT90S au GIE de rouleurs, pas à la mine à leur place.** Elle n'est intéressante pour eux que si la mine paie le voyage d'un gros camion plus cher que celui d'un 6x4. Le tarif au voyage par type de camion à Nakéty est la donnée à obtenir.
+  | Tarif | Avec 30 % d'apport | Financé à 100 % |
+  |---|---|---|
+  | 13 000 XPF/h | 51 % | 63 % |
+  | 15 000 XPF/h | 43 % | 53 % |
+  | 18 000 XPF/h | 34 % | 43 % |
+
+- **Version prudente** (entretien 6 000 XPF/h, 3 mécaniciens, 28 M de charges fixes), à 60 % de taux de location :
+
+  | Tarif | Trésorerie, 30 % d'apport | TRI sur 5 ans |
+  |---|---|---|
+  | 15 000 XPF/h | +6 M/an | ≈ 7 % |
+  | 16 500 XPF/h | +15 M/an | ≈ 13 % |
+
+- **Rendement par camion :** un SKT90S à 15 000 XPF/h, loué 60 % de 220 h/mois, rapporte environ 24 M XPF par an, soit 62 % de son prix. C'est au-dessus des 35 à 45 % habituels des loueurs, donc correct, mais sans la marge énorme du premier calcul.
+
+**Lecture.** Au prix réel, le SKT90S n'est plus « 4 fois moins cher » qu'un articulé de 40 t. L'avantage SANY se résume à : **même tarif horaire qu'un articulé de 40 t, mais 60 t par voyage.** Le projet tient à 15 000 XPF/h et 60 % d'occupation, avec un retour en environ 3,5 ans. Il devient fragile si :
+
+- le tarif tombe sous 13 000 XPF/h ;
+- l'occupation passe sous 45-50 % ;
+- les coûts d'entretien sont plus élevés que prévu.
+
+Un contrat d'ancrage avec minimum d'heures reste donc la condition pour acheter.
+
+**Côté rouleur (estimation).** Un 6x4 routier rapporte environ 12 000 à 13 000 XPF/h, en comptant 10 h par jour, conducteur et gasoil compris, pour environ 15 à 20 t par voyage. Un SKT90S loué 15 000 XPF/h, plus le gasoil (≈ 35 L/h) et le conducteur, revient à environ 22 000 à 24 000 XPF/h pour 60 t par voyage. Par tonne descendue, c'est environ deux fois moins cher pour la mine, à temps de cycle égal. C'est un argument fort auprès des miniers, mais aussi une menace directe pour le travail des rouleurs. **La formule à proposer est donc de louer le SKT90S au GIE de rouleurs, pas à la mine à leur place.** Elle ne les intéresse que si la mine paie le voyage d'un gros camion plus cher que celui d'un 6x4. Le tarif au voyage par type de camion à Nakéty est la donnée à obtenir.
 
 ## En bref
 
